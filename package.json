@@ -1,0 +1,16 @@
+{
+  "name": "flipkart",
+  "version": "1.0.0",
+  "description": "Flipkart design",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Prem Kumar",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.2",
+    "bootstrap-icons": "^1.11.1",
+    "jquery": "^3.7.1"
+  }
+}

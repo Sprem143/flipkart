@@ -1,0 +1,129 @@
+
+body{
+    background-color: rgb(237, 236, 236) !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#header-container{
+    margin-left: 100px;
+}
+.left{
+    margin-top: 10px;
+    margin-left: -200px;
+    margin-right: 200px;
+}
+.right{
+    margin-right: -120px;
+    margin-top: 12px;
+}
+.searchbox-container{
+    /* margin-top: 8px; */
+    height: 45px;
+    width: 400px;
+    background-color: rgb(240 245 255);
+    border-radius: 7px;
+    align-items: center;
+    padding: 10px;
+}
+#search-icon{
+    height: 30px;
+    width: 30px;
+    padding: 1px;
+    
+}
+.search-box{
+    width: 345px;
+    height: 45px;
+    border-radius: 8px;
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+}
+.three-dots{
+    margin-top: -20px;
+}
+.search-box:focus{
+    outline: none;
+}
+header nav ul div li{
+    list-style: none;
+  margin: 7px;
+}
+
+/* nav-bar */
+.nav-bar{
+    height: 160px;
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    margin-top: 15px;
+}
+.nav-items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.nav-pic{
+    align-items: center;
+    justify-content: center;
+}
+.nav-pic img{
+    width: 70%;
+    margin-left: 15px;
+}
+.nav-title{
+    font-weight: bolder;
+}
+/* coresal */
+.coresal-container{
+    width: 85%;
+    margin-top: 20px;
+}
+.electronic{
+    height: 300px;
+    width: 85%;
+    background-color: white;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;  
+}
+.electronics{
+    margin-top: 20px;
+    display: flex;
+}
+#electronic-title{
+    margin: 15px;
+    margin-bottom: -5px;
+}
+.electronic-items{
+    height:200px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(212, 212, 212);
+    border-radius: 5px;
+    margin: 5px;
+    padding: 10px;
+}
+.electronic-pic img{
+    /* height: 30%; */
+    margin-bottom: 20px;
+    margin-left: 20px;
+    width: 80%;
+}
+.electronic-pic{
+    height: 70%;
+}
+.electronic-tittle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
